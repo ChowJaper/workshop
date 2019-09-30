@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 公用*/
+.comwidth {width: 1000px;margin-left: auto;margin-right: auto;}
+.leftarea {float: left}
+.rightarea {float: right;}
+.show{display: block;}
+.hide{display: none;}
+/* topbar*/
+.topbar {
+	height: 31px;
+	background-color: #f7f7f7;
+	line-height: 31px
+}
+.collection {
+	background: url(file:///C|/Users/Administrator/Desktop/mukewan%202/qietu/wujiaoxin.png) no-repeat 0px center;
+	padding-left: 19px;
+	font-weight: bold;
+}
+.topbar a:hover {
+	color: #F55F3E
+}
+/* logo*/
+.logobar {
+	height: 85px;
+	background-color: #1d7ad9;
+}
+.logo {
+	padding-left: 41px;
+	padding-top: 13px
+}
+/* ssearch*/    
+.search_box {
+	width: 430px;
+	padding-top: 23px;
+	padding-left: 185px;
+}
+.search_text {
+	width: 350px;
+	height: 35px;
+	padding: 0px 5px;
+	background-color: #ffF
+}
+.search_btn {
+	width: 70px;
+	height: 35px;
+	font-size: 14px;
+	background-color: #ff8c00;
+	text-indent: 15px;
+	color: #fff;
+}
+/* 购物车*/
+.shopcar {
+	width: 145px;
+	height: 35px;
+	background-color: #ff8c00;
+	margin-top: 23px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 35px;
+	margin-right: 59px;
+}
+.shoptext {
+	width: 87px;
+	border-right: 1px solid #e27a00;
+	background: url(file:///C|/Users/Administrator/Desktop/mukewan%202/qietu/shop.png) 10px center no-repeat;
+	text-indent: 40px
+}
+
+.shopnum {
+	width: 56px;
+	height: 35px;
+	border-left: #ff9c01 solid 1px;
+	background: url(file:///C|/Users/Administrator/Desktop/mukewan%202/qietu/jiantou.png) no-repeat 33px center;
+	text-indent: 15px;
+}
+/*导航*/
+.navbox {
+
+	height: 35px;
+	background-color: #1369c0;
+	color: #fff;
+}
+.shopclass { position: relative;}
+
+.shopclass h3 {
+
+	display: block;
+	width: 190px;
+	line-height: 35px;
+	text-align: center;
+	background: url(file:///C|/Users/Administrator/Desktop/mukewan%202/qietu/sanjiao.png) no-repeat 150PX center;
+}
+.nav {
+	
+	line-height: 35px;
+}
+.nav li {
+	float: left;
+}
+.nav a {
+	height: 35px;
+	display: inline-block;
+	padding: 0 35px;
+	color: #fff;
+}
+.nav .active {
+	background-color: #4084F8;
+}
+
+/*商品弹出列表*/
+.shopclass_show {background-color: #4593fd;position: absolute;left: 0px; top:35px;width: 190px
+}
+.shopclass_item {
+	padding: 14px 10px;
+	border-top: 1px solid #5aa1fe;
+	border-bottom: 1px solid #3487f2;
+}
+.shopclass_item dt {
+	height: 22px;
+	background: url(file:///C|/Users/Administrator/Desktop/mukewan%202/qietu/jiantou--2.png) no-repeat right center;
+}
+.shopclass_item a:hover{text-decoration: underline}
+.shopclass_item .b {
+	font-size: 14px;
+	font-weight: bold;
+}
+.shopclass_item a {
+	color: #fff;
+}
+.shopclass_item .alink {
+	background: url(file:///C|/Users/Administrator/Desktop/mukewan%202/qietu/heyuanji.png) no-repeat left center;
+	width: 48px;
+	height: 20px;
+	text-decoration: underline;
+	text-align: center;
+	display: inline-block;
+	line-height: 20px
+}
+
+/*shopclass_item active  状态*/
+.shopclass_active{ background-color: #fff;border-left: 1px #4593fd  solid}
+.shopclass_active dt{background: none;}
+.shopclass_active a{color: #000000}
+.shopclass_active .alink{ color: #fff; text-decoration: none;}
+/*弹出菜单*/
+.shopclass_list{width: 568px;position: absolute;left: 190px;top:35px;border: 1px solid  #Ccc;}
+.shopclass_cont{ padding: 2px 20px;}
+.shoplist_item {padding: 10px 0px ; border-bottom: 1px solid #ccc}
+.shoplist_item  dt{  color:#4b87d9;font-weight: bold; line-height: 24px; height: 22px;}
+.shoplist_item dd{ padding-left: 68px; margin-top: -22px;line-height: 24px;}
+.shoplist_item dd a{margin-right: 12px}
+.shoplist_links{padding:15px 0 }
+.shoplist_links a{ color: #fff;background-color: #2785e6;height: 26px;line-height: 26px;font-size: 12px;display: inline-block;padding:0 14px 0 8px;margin-right: 10px;}
+.shoplist_links span{width: 11px;height: 7px; background:url(file:///C|/Users/Administrator/Desktop/mukewan%202/qietu/jiantou--2.png) no-repeat left center;display: inline-block;margin-left: 7px}
+
+/*banner*/
+.banner_bar{width:810px;height: 344px; position: relative;overflow: hidden;}
+.imgbox{width:1620px; height: 344px; position:absolute;left: 0;top:0;}
+.imgbox li{float: left;}
+.imgbox img{ width:810px;height: 344px;display: block;}
+.imgnum{position: absolute;left: 0px;bottom: 15px;width: 100%;text-align: center;}
+.imgnum a{display: inline-block;height:5px;width: 20px; overflow: hidden;background-color: #fff;margin: 0px 3px;}
+.imgnum .active{background-color: #ff7700;}
+
+
+/*商品标题*/
+.shoptip{height: 44px;line-height: 44px;clear: both;margin-bottom: 20px;}
+.shoptip h3{font-size: 24px;float: left;font-weight: normal;padding-left: 15px; padding-top:15px}
+.icon{ width: 44px;height: 44px;display: inline-block;background:url(file:///C|/Users/Administrator/Desktop/mukewan%202/qietu/shopicon.png) no-repeat left top;margin-top: 15px;float: left;}
+.more{float: right;padding-top:18px;color: #C2C2C2}
+.more:hover{ text-decoration: underline;color: #EFB06D;}
+
+/*商品列表*/
+.shoplist .leftarea{width: 190px;border: #389F6E 1px solid}
+.shoplist .rightarea {width: 804px;border: 1px red solid;border-bottom:#ff7201 solid 2px;height: 364px;overflow: hidden}
+
+
+/*商品列表-右侧*/
+.shoplist_top{margin-right: -8px}
+.shop_item{width: 202px;border-right: #999 solid 1px;border-bottom:#999 solid 1px;height: 280px;text-align: center;float: left}
+.shop_img{height: 185px;}
+.shop_img img{ width: 156px;height: 160px;display: block;margin:40px auto;}
+.shop_item h3{ font-size: 16px;}
+.shop_item p{font-size: 14px;color: #FB9D45;line-height:21px;}
+
+/*商品列表-底部*/
+.shopitem_sm{ width:200px; height:92px; border:1px blue solid}
+.shoplist_sm{margin-right: -8px; text-align: center; height:92px; clear:both;}
+.shopitem_sm{width: 202px;border: red 1px solid;}
+.shopitem_smimg{width: 70px;height:60px; ; padding:10px ;text-align: center;float: left}
+.shopitem_smimg img{ width: 70px;height:60px;}
+.shopitem_text{padding-top: 15px;width: 110px;float: left}
+

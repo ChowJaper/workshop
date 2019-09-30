@@ -1,0 +1,245 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 公用*/
+.comwidth {width: 1000px;margin-left: auto;margin-right: auto;}
+.leftarea {float: left}
+.rightarea {float: right;}
+.show{display: block;}
+.hide{display: none;}
+/* topbar*/
+.topbar {
+	height: 31px;
+	background-color: #f7f7f7;
+	line-height: 31px
+}
+.collection {
+	background: url(  qietu/wujiaoxin.png)no-repeat 0px center;
+	padding-left: 19px;
+	font-weight: bold;
+}
+.topbar a:hover {
+	color: #F55F3E
+}
+/* logo*/
+.logobar {
+	height: 85px;
+	background-color: #1d7ad9;
+}
+.logo {
+	padding-left: 41px;
+	padding-top: 13px
+}
+/* ssearch*/    
+.search_box {
+	width: 430px;
+	padding-top: 23px;
+	padding-left: 185px;
+}
+.search_text {
+	width: 350px;
+	height: 35px;
+	padding: 0px 5px;
+	background-color: #ffF
+}
+.search_btn {
+	width: 70px;
+	height: 35px;
+	font-size: 14px;
+	background-color: #ff8c00;
+	text-indent: 15px;
+	color: #fff;
+}
+/* 购物车*/
+.shopcar {
+	width: 145px;
+	height: 35px;
+	background-color: #ff8c00;
+	margin-top: 23px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 35px;
+	margin-right: 59px;
+}
+.shoptext {
+	width: 87px;
+	border-right: 1px solid #e27a00;
+	background: url( qietu/shop.png) 10px center no-repeat;
+	text-indent: 40px
+}
+
+.shopnum {
+	width: 56px;
+	height: 35px;
+	border-left: #ff9c01 solid 1px;
+	background: url(qietu/jiantou.png)no-repeat 33px center;
+	text-indent: 15px;
+}
+/*导航*/
+.navbox {
+
+	height: 35px;
+	background-color: #1369c0;
+	color: #fff;
+}
+.shopclass { position: relative;}
+
+.shopclass h3 {
+
+	display: block;
+	width: 190px;
+	line-height: 35px;
+	text-align: center;
+	background: url(qietu/sanjiao.png)no-repeat 150PX center;
+}
+.nav {
+	
+	line-height: 35px;
+}
+.nav li {
+	float: left;
+}
+.nav a {
+	height: 35px;
+	display: inline-block;
+	padding: 0 35px;
+	color: #fff;
+}
+.nav .active {
+	background-color: #4084F8;
+}
+
+/*商品弹出列表*/
+.shopclass_show {background-color: #4593fd;position: absolute;left: 0px; top:35px;width: 190px
+}
+.shopclass_item {
+	padding: 14px 10px;
+	border-top: 1px solid #5aa1fe;
+	border-bottom: 1px solid #3487f2;
+}
+.shopclass_item dt {
+	height: 22px;
+	background: url(qietu/jiantou--2.png)no-repeat right center;
+}
+.shopclass_item a:hover{text-decoration: underline}
+.shopclass_item .b {
+	font-size: 14px;
+	font-weight: bold;
+}
+.shopclass_item a {
+	color: #fff;
+}
+.shopclass_item .alink {
+	background: url(qietu/heyuanji.png)no-repeat left center;
+	width: 48px;
+	height: 20px;
+	text-decoration: underline;
+	text-align: center;
+	display: inline-block;
+	line-height: 20px
+}
+
+/*shopclass_item active  状态*/
+.shopclass_active{ background-color: #fff;border-left: 1px #4593fd  solid}
+.shopclass_active dt{background: none;}
+.shopclass_active a{color: #000000}
+.shopclass_active .alink{ color: #fff; text-decoration: none;}
+/*弹出菜单*/
+.shopclass_list{width: 568px;position: absolute;left: 190px;top:35px;border: 1px solid  #Ccc;}
+.shopclass_cont{ padding: 2px 20px;}
+.shoplist_item {padding: 10px 0px ; border-bottom: 1px solid #ccc}
+.shoplist_item  dt{  color:#4b87d9;font-weight: bold; line-height: 24px; height: 22px;}
+.shoplist_item dd{ padding-left: 68px; margin-top: -22px;line-height: 24px;}
+.shoplist_item dd a{margin-right: 12px}
+.shoplist_links{padding:15px 0 }
+.shoplist_links a{ color: #fff;background-color: #2785e6;height: 26px;line-height: 26px;font-size: 12px;display: inline-block;padding:0 14px 0 8px;margin-right: 10px;}
+.shoplist_links span{width: 11px;height: 7px; background:url(qietu/jiantou--2.png)no-repeat left center;display: inline-block;margin-left: 7px}
+
+/*商品列表*/
+.shoplist .leftarea{width: 190px;border: #389F6E 1px solid}
+.shoplist .rightarea {width: 804px;border: 1px red solid;border-bottom:#ff7201 solid 2px;height: 364px;overflow: hidden}
+
+
+/*商品列表-右侧*/
+.shoplist{margin-bottom: 20px}
+.shoplist_top{margin-right: -8px}
+.shop_item{width: 202px;border-right: #999 solid 1px;border-bottom:#999 solid 1px;height: 280px;text-align: center;float: left}
+.shop_img{height: 185px;}
+.shop_img img{ width: 156px;height: 160px;display: block;margin:40px auto;}
+.shop_item h3{ font-size: 16px;}
+.shop_item p{font-size: 14px;color: #FB9D45;line-height:21px;}
+
+.leftarea .banner_bar{width:190px;height: 368px; position: relative; float:right; overflow:hidden}
+.leftarea .imgbox{width:400px; height: 368px; position:absolute;left: 0;top:0;}
+.leftarea .imgbox li{float: left;}
+.leftarea .imgbox img{ width:190px;height: 368px;display: block;}
+.leftarea .imgnum{position: absolute;left: 0px;bottom: 15px;width: 100%;text-align: center;}
+.leftarea .imgnum a{display: inline-block;height:5px;width: 20px; overflow: hidden;background-color: #fff;margin: 0px 3px;}
+.leftarea .imgnum .active{background-color: #ff7700;}
+
+
+/*商品列表-底部*/
+.shopitem_sm{ width:200px; height:92px; border:1px #999 solid;float: left}
+.shoplist_sm{margin-right: -8px; text-align: center; height:92px; clear:both;}
+.shopitem_sm{width: 200px;}
+.shopitem_smimg{width: 70px;height:60px; ; padding:10px ;text-align: center;float: left}
+.shopitem_smimg img{ width: 70px;height:60px;}
+.shopitem_text{padding-top: 15px;width: 100px;float: left;}
+.shopitem_text p{color: #ff7300}
+.shopitem_text h3{ font-weight:normal;font-size: 16px;color: #181818;line-height: 30px}
+
+/*产品分类页*/
+.products .leftarea{width: 190px}
+.products .rightarea{width: 810px}
+.hr_15{height: 20px;overflow: hidden}
+
+
+/*产品分类导航*/
+.leftnav{ background-color: #f3f3f3; border: #d7d7d7solid 1px;}
+.nav_title {line-height: 34px ;height: 34px;font-size: 14px;border-bottom:  #d7d7d9  solid 1px; margin-bottom: -1px; text-align: center}
+.nav_cont{ padding: 0px 18px 4px;background-color: #f3f3f3;border-bottom:   #d7d7d9   2px dotted}
+.nav_cont h3{ font-size: 12px;line-height: 30px ;height: 30px}
+.navcont_list{line-height: 25px ;display:inline-block}
+.navcont_list li{float: left; width: 50%;}
+.vertical li{ width: auto;float: none; padding-left: 10px}
+.vertical .nav_title,
+.vertical .nav_cont h3{ font-family: "Times New Roman", "serif";font-size: 16px;}
+
+/*筛选*/
+.screening{border-bottom: #ccc solid 1px;clear: both }
+.screening dt{ line-height: 32px;width: 74px;text-align:right; float: left;margin-right: 42px;}
+.limit{width:55px; float: left; line-height: 32px;background-color: beige}
+.screening .active{background-color: #1d7ad9; color: #FFFFFF;}
+.screening a{padding: 2px 6px;}
+.screening_list { line-height: 32px;width: 626px;float: left; }
+.screening_list li{ width: 20%;float: left}
+.screen_more{border: 1px solid #c4c4c4;line-height: 23px;height: 23px;margin-top: 4px;float: left;;padding-right: 10px;margin-right: 14px}
+.screen_more a{background: url(qietu/jiantou--2.png)right center no-repeat;padding-right: 10px}
+.line_1{border-bottom: 1px #ccc solid;    height: 32px;}
+
+.addinfo{height:31px; border: #ccc solid 1px;background-color: #f5f5f5;}
+.address{float: left}
+.address span { float: left;line-height: 32px;padding-left: 12px; padding-right: 4px}
+.addinfo .select{ margin-top: 4px}
+
+/*组件*/
+.select{border: #999 solid 1px ;height: 22px ;line-height: 22px; float: left ;background-color:#fff;padding-left: 10px;padding-right: 20px ;position: relative;z-index: 1}
+.select h3{ font-size: 12px ;font-weight: normal;  }
+.select span{position: absolute;right: 0px; top:0px;height: 100%; width: 20px;}
+.show_select{ border: #999 solid 1px;position: absolute;left: -1px; top:22px; background-color: #fff;width: 100%}
+.show_select li{ border-bottom: 1px solid red;padding-left: 10px;display: none}
+.select span{background: url(qietu/jiantou.png)no-repeat 20px center;}
+.add_give{ margin-right: 30px;}
+
+.check input,
+.check label{ vertical-align: middle }
+.shop_number em{ }
+
+/*底部*/
+.footer{background-color:#d4d4d4;text-align: center;line-height: 24px;padding: 50px 0px;clear: both; }
+.footer i{ font-style: normal;margin:  0px 5px}
+.footer a{color: #000}
+.footer a:hover{ color: #517FC7; text-decoration: underline}
+.web{padding-top: 15px}
+.web img{ background-size:90px 40px;margin: 0 10px;}
+
